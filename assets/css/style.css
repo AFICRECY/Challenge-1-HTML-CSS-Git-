@@ -20,9 +20,7 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
+/* Consolidated code: deleted the .header h1 .seo class and turned it into a style element */
 
 .header div {
     padding-top: 15px;
@@ -32,14 +30,12 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
-
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
 }
+/* Consolidated code: deleted the redundant class .header div ul*/
 
 a {
     color: #ffffff;
@@ -90,31 +86,15 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/* Consolidated the code: I combined the two classes .benefit-brand and .benefit-cost into benefit-lead so there would only need to be one class. */
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+/* Consolidated the code: I made sure that ".benefit-brand h3" and "benefit-cost h3" were combined into the one class as a css selector */
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
 .benefit-lead img {
     display: block;
@@ -122,7 +102,7 @@ p {
     max-width: 150px;
 }
 
-.benefit-brand img {
+/* .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -132,61 +112,29 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
-.search-engine-optimization {
+ .content-item {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    color: #ffffff; 
 }
+/* Consolidating the code: I downsized three separate classes to one class name with the same dimensions and effects */
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.content img {
     max-height: 200px;
 }
+/* Consolidateed code: took out the .search-engine-optimization img, online-reputation-management img, and social-media-marketing img) and combined the class and element img */
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* Consolidated code: took out search-engine-optimization class and added the h2 to the .content class which was already covering all the div */
 
 .footer {
     padding: 30px;
