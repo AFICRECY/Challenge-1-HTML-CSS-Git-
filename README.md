@@ -24,6 +24,14 @@ Usage:
 Through our portal, when a user makes an account, we are able to pair them with an industry professional, specialized in either of our three expertise': SEO, Online Reputation Management, and Social Media Marketing. Alternativley, for companies or contractors who simply visit our site for education and new knowledge on our specialities, we have plenty of in-app resources for them to choose and learn from. 
 
 
+Credits:
+Selectors https://www.w3schools.com/cssref/css_selectors.php 
+HTML Attributes https://www.w3schools.com/html/html_attributes.asp 
+HTML Accessibility https://www.w3schools.com/html/html_accessibility.asp 
+Online Advertising Facts https://www.statista.com/statistics/237974/online-advertising-spending-worldwide/ 
+
+
+License: 
 
 
 
