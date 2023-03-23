@@ -86,7 +86,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* Consolidated the code: I combined the two classes .benefit-brand and .benefit-cost into benefit-lead so there would only need to be one class. */
+/* Consolidated the code: I combined the two classes ".benefit-brand" and ".benefit-cost" into benefit-lead so there would only need to be one class. */
 
 
 .benefit-lead h3 {
@@ -101,18 +101,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* Consolidated the code: I combined the two classes ".benefit-brand img" and ".benefit-cost img" into benefit-lead so there would only need to be one class. */ 
 
-/* .benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
 
  .content-item {
     margin-bottom: 20px;
