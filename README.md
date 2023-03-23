@@ -2,6 +2,13 @@
 Title:
 Online Presence Management Website
 
+Technology Used:
+| Technology Used         | Resource URL           | 
+| ------------- |:-------------:| 
+| HTML    | [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) | 
+| CSS     | [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)      |   
+| Git | [https://git-scm.com/](https://git-scm.com/)     | 
+
 Description: 
 This website application serves as a online resource for any company, contractor, or individual, with an online presence, who would like either like to see more views on their advertisements, a change in their online reputation, or an increase in customers and viewers from around the world. Horiseon specializes in SEO (Search Engine Optimization), Online Reputation Management, and Social Media Marketing. Additionally, this web app is desgined to be in line with assecibility standards, allowing both visually and audio impared individuals to access our resources as well. 
 
