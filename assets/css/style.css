@@ -114,6 +114,13 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff; 
+    background-size: contain;
+    /* margin-top: 20px; */
+    /* max-height: 300px; */
+    /* flex: 0 0 100px; */
+    /* display: flex; */
+    /* flex: 0 0 50%; */
+    /* contain: size; */
 }
 /* Consolidating the code: I downsized three separate classes to one class name with the same dimensions and effects */
 
