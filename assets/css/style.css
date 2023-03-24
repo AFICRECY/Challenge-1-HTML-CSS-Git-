@@ -16,14 +16,14 @@ body {
     display: inline-block;
     width: 100%;
 }
- /*added a display: inline-block and a width f 100% so that the tabs at the top of the page would stay contained within the section and stay in line when the screen is adjusted. Better for smart phone users as well. */
+ /*added a display: inline-block and a width of 100% so that the tabs at the top of the page would stay contained within the section and stay in line when the screen is adjusted. Better for smart phone users as well. */
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* Consolidated code: deleted the .header h1 .seo class and turned it into a style element */
+/* Consolidated code: deleted the ".header h1 .seo" class and turned it into a style element */
 
 .header div {
     padding-top: 15px;
@@ -38,7 +38,7 @@ body {
     margin-left: 25px;
     list-style-type: none;
 }
-/* Consolidated code: deleted the redundant class .header div ul*/
+/* Consolidated code: deleted the redundant class ".header div ul"*/
 
 a {
     color: #ffffff;
@@ -89,7 +89,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* Consolidated the code: I combined the two classes ".benefit-brand" and ".benefit-cost" into benefit-lead so there would only need to be one class. */
+/* Consolidated the code: I combined the two classes ".benefit-brand" and ".benefit-cost" into "benefit-lead" so there would only need to be one class. */
 
 
 .benefit-lead h3 {
@@ -141,7 +141,7 @@ p {
 .content img {
     max-height: 200px;
 }
-/* Consolidateed code: took out the .search-engine-optimization img, online-reputation-management img, and social-media-marketing img) and combined the class and element img */
+/* Consolidateed code: took out the ".search-engine-optimization img", "online-reputation-management img", and "social-media-marketing img", and combined the class and element img */
 
 .content h2 {
     margin-bottom: 20px;

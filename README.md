@@ -18,13 +18,36 @@ The world is changing. As companies or contractors attempt to grow their buisine
 Through creating this web app, I was able to discover the required alt attributes which can aid in making accessible media files for visually and hearing impaired users. It was also found out that through reviewing and refactoring my code, I was able to consolidate the code to clean it up. 
 
 ## Table of Contents: 
-
+-add table of contents
+-edited comments in the style.css 
+-editted installation in read me
 
 
 ### Installation: 
--give code refactoring examples 
--give the changes you made to the titles/headings, the alt attributes (created them) for accessibility
-XXXXX
+
+## Refactoring Examples:
+
+* Throughout the original code provided I was able to got into style.css and consolidate the code. I did this to many different classes and checked to make sure that the HTML elements and their respective classes matched with the style.css classes.
+
+In this code sample I show the original classes that I consolidated by combining the two classes ".benefit-brand" and ".benefit-cost" into "benefit-lead" so there would only need to be one class (style.css line 92)
+
+
+
+
+* I was able to add to the existing .header class which affected the tabs at the top of the page. I added a "display: inline-block" and a width of 100% so that the tabs at the top of the page would stay contained within the section and stay in line when the screen is adjusted. This feature should prove both beneficial to smart phone users as well desktop users. Below is a snippet of the old vs the new code. 
+
+
+
+
+
+* I modified the title element on index.html. The original would not stand out to SEO readers and would not help include non-visual users who use software to scan for assecibility markers such as descriptive titles and headings.The new title is: "Online Presence Resource"
+
+* I also added other more descriptive "Alt Attributes" on the image elements in HTML in an effort to 
+aid in more accessibile and inclusive website experiences. A example is added below. 
+
+
+
+
 
 
 ### Usage: 
