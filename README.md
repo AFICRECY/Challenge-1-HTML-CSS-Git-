@@ -32,11 +32,11 @@ Through our portal, when a user makes an account, we are able to pair them with 
 
 
 ## Credits:
-Selectors https://www.w3schools.com/cssref/css_selectors.php 
-HTML Attributes https://www.w3schools.com/html/html_attributes.asp 
-HTML Accessibility https://www.w3schools.com/html/html_accessibility.asp 
-Online Advertising Facts https://www.statista.com/statistics/237974/online-advertising-spending-worldwide/ 
-Choosing a License https://choosealicense.com/licenses/mit/ 
+* Selectors https://www.w3schools.com/cssref/css_selectors.php 
+* HTML Attributes https://www.w3schools.com/html/html_attributes.asp 
+* HTML Accessibility https://www.w3schools.com/html/html_accessibility.asp 
+* Online Advertising Facts https://www.statista.com/statistics/237974/online-advertising-spending-worldwide/ 
+* Choosing a License https://choosealicense.com/licenses/mit/ 
 
 
 ### License:
