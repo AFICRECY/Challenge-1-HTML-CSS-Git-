@@ -1,15 +1,13 @@
-# Challenge-1-HTML-CSS-Git-
-Title:
-Online Presence Management Website
+# Online Presence Management Website
 
-Technology Used:
+## Technology Used:
 | Technology Used         | Resource URL           | 
 | ------------- |:-------------:| 
 | HTML    | [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) | 
 | CSS     | [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)      |   
 | Git | [https://git-scm.com/](https://git-scm.com/)     | 
 
-Description: 
+## Description: 
 
 [Visit Deployed Site]: XXX
 
@@ -19,24 +17,21 @@ The world is changing. As companies or contractors attempt to grow their buisine
 
 Through creating this web app, I was able to discover the required alt attributes which can aid in making accessible media files for visually and hearing impaired users. It was also found out that through reviewing and refactoring my code, I was able to consolidate the code to clean it up. 
 
-Table of Contents: 
-i. Installation 
-ii. Usage
-iii. Credits
-iv. License
+## Table of Contents: 
 
 
-Installation: 
+
+### Installation: 
 -give code refactoring examples 
 -give the changes you made to the titles/headings, the alt attributes (created them) for accessibility
-()
+XXXXX
 
 
-Usage: 
+### Usage: 
 Through our portal, when a user makes an account, we are able to pair them with an industry professional, specialized in either of our three expertise': SEO, Online Reputation Management, and Social Media Marketing. Alternativley, for companies or contractors who simply visit our site for education and new knowledge on our specialities, we have plenty of in-app resources for them to choose and learn from. 
 
 
-Credits:
+## Credits:
 Selectors https://www.w3schools.com/cssref/css_selectors.php 
 HTML Attributes https://www.w3schools.com/html/html_attributes.asp 
 HTML Accessibility https://www.w3schools.com/html/html_accessibility.asp 
@@ -44,7 +39,7 @@ Online Advertising Facts https://www.statista.com/statistics/237974/online-adver
 Choosing a License https://choosealicense.com/licenses/mit/ 
 
 
-License:
+### License:
 MIT License
 
 Copyright (c) [2023] [Afi Nkhume-Crecy]
