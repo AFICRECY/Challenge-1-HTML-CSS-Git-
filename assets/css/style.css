@@ -106,17 +106,17 @@ p {
 }
 /* Consolidated the code: I combined the two classes ".benefit-brand img" and ".benefit-cost img" into benefit-lead so there would only need to be one class. */ 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 50px) {
  .content-item {
-    margin-bottom: 0px;
-    padding: 0px;
-    height: 10px;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff; 
     background-size: contain;
  }}
- /* created a media query for the webpage to be responsive to different screen sizes, such as an ipad or iphone.*/
+ /* Created a media query for the webpage to be responsive to different screen sizes, such as an ipad or iphone.*/
 
 
 .content-item {
@@ -128,14 +128,13 @@ p {
     color: #ffffff; 
     background-size: contain;
 }
-   
     /* margin-top: 20px; */
     /* max-height: 300px; */
     /* flex: 0 0 100px; */
     /* display: flex; */
     /* flex: 0 0 50%; */
     /* contain: size; */
-
+/* Tried the above commands and many others, was unable to get the content (picture heading and paragraph to fall within each blue box no matter what adjustment you give the screen */
 /* Consolidating the code: I downsized three separate classes to one class name with the same dimensions and effects */
 
 
