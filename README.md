@@ -18,21 +18,34 @@ The world is changing. As companies or contractors attempt to grow their buisine
 Through creating this web app, I was able to discover the required alt attributes which can aid in making accessible media files for visually and hearing impaired users. It was also found out that through reviewing and refactoring my code, I was able to consolidate the code to clean it up. 
 
 ## Table of Contents: 
-* Installation
+* Installation (Refactoring & Accessibility)
 * Usage
 * Credits 
-* 
-cod `code`
+* License
+
 
 ### Installation: 
 
 #### Refactoring Examples:
 
-Throughout the original code provided I was able to got into style.css and consolidate the code. I did this to many different classes and checked to make sure that the HTML elements and their respective classes matched with the style.css classes.
+* Throughout the original code provided I was able to got into style.css and consolidate the code. I did this to many different classes and checked to make sure that the HTML elements and their respective classes matched with the style.css classes.
 
 In this code sample I show the original classes that I consolidated by combining the two classes ".benefit-brand" and ".benefit-cost" into "benefit-lead" so there would only need to be one class (style.css line 92)
 
+Original Code:
+```
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
 
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+```
+
+Refactored Code:
 ```
 .benefit-lead {
     margin-bottom: 32px;
@@ -40,21 +53,39 @@ In this code sample I show the original classes that I consolidated by combining
 }
 ```
 
-
 * I was able to add to the existing .header class which affected the tabs at the top of the page. I added a "display: inline-block" and a width of 100% so that the tabs at the top of the page would stay contained within the section and stay in line when the screen is adjusted. This feature should prove both beneficial to smart phone users as well desktop users. Below is a snippet of the old vs the new code. 
 
+Original Code:
+```
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+```
 
+Refactored Code:
+```
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    display: inline-block;
+    width: 100%;
+}
+```
 
+* I modified the title element on index.html. The original would not stand out to SEO readers and would not help include non-visual users who use software to scan for assecibility markers such as descriptive titles and headings.The new title is below:
 
+  `<title>Online Presence Resource</title>`
 
-* I modified the title element on index.html. The original would not stand out to SEO readers and would not help include non-visual users who use software to scan for assecibility markers such as descriptive titles and headings.The new title is: "Online Presence Resource"
+* I also added other more descriptive "Alt Attributes" on the image elements in HTML in an effort to aid in more accessibile and inclusive website experiences. A example is added below. 
 
-* I also added other more descriptive "Alt Attributes" on the image elements in HTML in an effort to 
-aid in more accessibile and inclusive website experiences. A example is added below. 
-
-
-
-
+Accessible Code:
+```
+ <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="a wooden desk holding a laptop, a full coffee mug, pens, and a notebook with the letters SEO on it"/>
+```
 
 
 ### Usage: 
