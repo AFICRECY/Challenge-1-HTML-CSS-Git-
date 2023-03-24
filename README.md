@@ -18,20 +18,27 @@ The world is changing. As companies or contractors attempt to grow their buisine
 Through creating this web app, I was able to discover the required alt attributes which can aid in making accessible media files for visually and hearing impaired users. It was also found out that through reviewing and refactoring my code, I was able to consolidate the code to clean it up. 
 
 ## Table of Contents: 
--add table of contents
--edited comments in the style.css 
--editted installation in read me
-
+* Installation
+* Usage
+* Credits 
+* 
+cod `code`
 
 ### Installation: 
 
-## Refactoring Examples:
+#### Refactoring Examples:
 
-* Throughout the original code provided I was able to got into style.css and consolidate the code. I did this to many different classes and checked to make sure that the HTML elements and their respective classes matched with the style.css classes.
+Throughout the original code provided I was able to got into style.css and consolidate the code. I did this to many different classes and checked to make sure that the HTML elements and their respective classes matched with the style.css classes.
 
 In this code sample I show the original classes that I consolidated by combining the two classes ".benefit-brand" and ".benefit-cost" into "benefit-lead" so there would only need to be one class (style.css line 92)
 
 
+```
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+```
 
 
 * I was able to add to the existing .header class which affected the tabs at the top of the page. I added a "display: inline-block" and a width of 100% so that the tabs at the top of the page would stay contained within the section and stay in line when the screen is adjusted. This feature should prove both beneficial to smart phone users as well desktop users. Below is a snippet of the old vs the new code. 
